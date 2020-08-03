@@ -1,0 +1,38 @@
+html { font-family: "Myriad Pro", sans-serif; }
+
+section#first-section { background-image: url("../images/main-background.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; }
+section#first-section .background-img { background-image: url("../images/light-main-section.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; }
+section#first-section .main-title-row { color: #474747; padding-top: 150px; }
+section#first-section .main-title-row .main-title { font-size: 40px; text-align: center; font-weight: bold; }
+section#first-section .main-title-row .main-subtitle { color: #3F3F3F; text-align: center; font-size: 15px; margin: 20px 0; }
+section#first-section .scroll-row { padding: 20px 0; }
+section#first-section .scroll-row .scroll-down-block { margin: auto; color: white; font-size: 12px; }
+section#first-section .scroll-row .scroll-down-block .scroll-button { background-color: #1A9BDC; width: 150px; height: 35px; border-radius: 20px; border: none; }
+section#first-section .scroll-row .scroll-down-block .scroll-button .text-button { text-transform: uppercase; font-size: 13px; color: white; font-weight: bold; padding: 5px; }
+
+section#second-section { margin: auto; width: 100%; }
+section#second-section .section-one { background-color: #43B1D2; }
+section#second-section .section-two { background-color: #3FB6C6; }
+section#second-section .section-three { background-color: #3CBBBB; }
+section#second-section .section-four { background-color: #37C3A8; }
+section#second-section .features-block { padding: 30px 30px; display: flex; flex-direction: column; text-align: center; }
+section#second-section .features-block .icon-block { margin: 30px auto 10px auto; height: 50px; width: 50px; display: flex; background-color: white; border-radius: 50%; }
+section#second-section .features-block .icon-block img { height: 30px; margin: auto; width: auto; }
+section#second-section .features-block h3 { font-size: 17px; text-align: center; font-weight: bold; color: white; }
+section#second-section .features-block p { font-size: 12px; color: white; }
+
+section#third-section { padding: 50px 0 0 0; height: auto; }
+section#third-section .main-title-choosing .title-choosing { text-align: center; font-weight: bold; font-size: 50px; color: #494949; }
+section#third-section .main-title-choosing .description-choosing { text-align: center; font-size: 15px; color: #6A6A6A; }
+section#third-section .style-choosing img { background-position: center; background-repeat: no-repeat; background-size: cover; height: 450px; }
+section#third-section .style-choosing .choosing { padding: 50px 20px; }
+section#third-section .style-choosing .choosing .choosing-block { text-align: center; display: flex; }
+section#third-section .style-choosing .choosing .choosing-block .icon-block { margin: 30px 0 10px 0; height: 50px; width: 50px; display: flex; background-color: #1A9BDC; border-radius: 50%; }
+section#third-section .style-choosing .choosing .choosing-block .icon-block img { height: 30px; margin: auto; width: auto; color: white; }
+section#third-section .style-choosing .choosing .choosing-block h3 { font-size: 17px; text-align: center; font-weight: bold; color: #6F6F6E; margin: auto auto 25px 20px; }
+section#third-section .style-choosing .choosing p { font-size: 12px; color: #6A6A6A; }
+
+section#fourth-section { background-image: url("../images/best-feature-background.png"); height: 500px; background-position: center; background-repeat: no-repeat; background-size: cover; }
+section#fourth-section .best-feature { display: flex; color: white; }
+section#fourth-section .best-feature .best-feature-block .icon-block { margin: 30px 0 10px 0; height: 50px; width: 50px; display: flex; }
+section#fourth-section .best-feature .best-feature-block .icon-block img { height: 30px; margin: auto; width: auto; color: white; }
