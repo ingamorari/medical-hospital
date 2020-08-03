@@ -44,17 +44,29 @@ section#first-section {
       font-size: 12px;
 
       .scroll-button {
+        box-shadow: 5px 8px 31px -5px rgba(0,0,0,0.75);
         background-color: $header-icons;
         width: 150px;
         height: 35px;
         border-radius: 20px;
         border: none;
+        &:hover {
+          background-color: #167a95;
+          color: gray;
+        }
+
+        &:focus {
+          outline: none;
+        }
         .text-button{
         text-transform: uppercase;
         font-size: 13px;
         color: white;
           font-weight: bold;
           padding: 5px;
+          &:focus {
+            outline: none;
+          }
       }
       }
     }
@@ -138,11 +150,10 @@ section#third-section{
         height: 450px;
       }
       .choosing {
-      padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
     .choosing-block {
-      //padding: 30px 30px;
-      //height: 50%;
-      //width: 100px;
+
       text-align: center;
       display: flex;
       .icon-block {
