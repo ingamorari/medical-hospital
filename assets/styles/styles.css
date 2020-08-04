@@ -66,3 +66,10 @@ section#five-section .text-area .our-creative .treatment-position .about-treatme
 section#five-section .text-area .our-creative .treatment-position .about-treatment-two .icon-style { color: #0087BE; height: 30px; width: 30px; display: flex; border-radius: 50%; background-color: white; }
 section#five-section .text-area .our-creative .treatment-position .about-treatment-two .icon-style i { margin: auto; color: #0087BE; }
 section#five-section .text-area .our-creative .treatment-position .about-treatment-two .text-style { font-size: 13px; margin: auto 10px; color: black; }
+
+section#six-section { background-image: url("../images/gallery-background.png"); background-position: center; background-repeat: no-repeat; background-size: cover; }
+section#six-section .back-color { background-color: rgba(56, 182, 158, 0.8); padding: 3rem; }
+section#six-section .back-color .main-title-gallery .title-gallery { text-align: center; font-weight: bold; font-size: 50px; color: white; padding-bottom: 30px; }
+section#six-section .back-color .main-title-gallery .description-gallery { text-align: center; font-size: 15px; color: white; }
+section#six-section .back-color .image-gallery { padding: 20px 0; }
+section#six-section .back-color .image-gallery .image-block img { width: 100%; height: 100%; }
