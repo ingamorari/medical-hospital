@@ -85,3 +85,7 @@ section#seven-section .main-title-team .team .team-block h3 { font-size: 18px; t
 section#seven-section .main-title-team .team .team-block .team-position { font-size: 12px; text-align: center; color: #6F6F6E; }
 section#seven-section .main-title-team .team .team-block .icons-position { display: flex; color: #0087BE; margin: auto; }
 section#seven-section .main-title-team .team .team-block .icons-position i { height: 30px; width: auto; padding: 20px 5px; }
+
+section#eight-section { padding: 3rem; background-color: #E2E2E2; }
+section#eight-section .action-bar { font-size: 30px; font-weight: bold; color: #494949; }
+section#eight-section .scroll-down-block { margin: auto; padding: 10px 20px; }
