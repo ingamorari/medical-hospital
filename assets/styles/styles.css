@@ -73,3 +73,15 @@ section#six-section .back-color .main-title-gallery .title-gallery { text-align:
 section#six-section .back-color .main-title-gallery .description-gallery { text-align: center; font-size: 15px; color: white; }
 section#six-section .back-color .image-gallery { padding: 20px 0; }
 section#six-section .back-color .image-gallery .image-block img { width: 100%; height: 100%; }
+
+section#seven-section { padding: 5rem; }
+section#seven-section .main-title-team .title-team { text-align: center; font-weight: bold; font-size: 50px; color: black; padding-bottom: 30px; }
+section#seven-section .main-title-team .description-team { text-align: center; font-size: 15px; color: black; }
+section#seven-section .main-title-team .team { align-content: center; padding: 50px 0; }
+section#seven-section .main-title-team .team .team-block { display: flex; flex-direction: column; text-align: center; }
+section#seven-section .main-title-team .team .team-block .image-block { height: 200px; display: flex; margin: 20px auto; }
+section#seven-section .main-title-team .team .team-block .image-block img { height: 200px; width: auto; border-radius: 50%; }
+section#seven-section .main-title-team .team .team-block h3 { font-size: 18px; text-align: center; color: #6F6F6E; }
+section#seven-section .main-title-team .team .team-block .team-position { font-size: 12px; text-align: center; color: #6F6F6E; }
+section#seven-section .main-title-team .team .team-block .icons-position { display: flex; color: #0087BE; margin: auto; }
+section#seven-section .main-title-team .team .team-block .icons-position i { height: 30px; width: auto; padding: 20px 5px; }

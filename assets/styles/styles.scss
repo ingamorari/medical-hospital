@@ -390,4 +390,71 @@ section#six-section{
 
   }
 }
+section#seven-section{
+  padding: 5rem;
+  .main-title-team {
+    .title-team {
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      color: black;
+      padding-bottom: 30px;
+
+    }
+
+    .description-team {
+      text-align: center;
+      font-size: 15px;
+      color: black;
+    }
+    .team {
+      align-content: center;
+      padding: 50px 0;
+      .team-block {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .image-block {
+          height: 200px;
+          display: flex;
+          margin: 20px auto;
+
+          img {
+            height: 200px;
+            width: auto;
+            border-radius: 50%;
+
+          }
+        }
+        h3 {
+          font-size: 18px;
+          text-align: center;
+          //margin: 10px 0;
+          color: #6F6F6E;
+        }
+        .team-position{
+          font-size: 12px;
+          text-align: center;
+          //margin: 5px 0;
+          color: #6F6F6E;
+        }
+        .icons-position{
+          display: flex;
+          color: #0087BE;
+          margin: auto;
+          i{
+            height: 30px;
+            //margin: auto;
+            width: auto;
+            padding: 20px 5px;
+          }
+
+        }
+      }
+    }
+
+  }
+
+}
 @import "mobile";
