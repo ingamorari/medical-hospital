@@ -1,9 +1,32 @@
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
+  section {
+    &#nine-section {
+      .main-footer {
+        .footer-title {
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 576px) {
 }
 @media (max-width: 450px) {
+  section {
+    &#eight-section {
+      .action-bar {
+        font-size: 24px;
+      }
 
+    }
+    &#first-section {
+      .main-title-row {
+        .main-title {
+          font-size: 24px;
+        }
+      }
+    }
+  }
 }
