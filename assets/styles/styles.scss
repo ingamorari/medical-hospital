@@ -39,6 +39,76 @@ a {
     }
   }
 }
+main{
+  .navbar-class {
+    display: flex;
+  }
+  .header {
+    .header-logo{
+      border-bottom: 1px solid rgba(194, 194, 194, 0.30980392156862746);
+      color: black;
+        .choosing-block {
+          display: flex;
+          .icon-block {
+            margin: 20px 0 10px 0;
+            height: 40px;
+            width: 40px;
+            display: flex;
+            background-color: $header-icons;
+            border-radius: 50%;
+
+            i {
+              margin: auto;
+              color: white;
+              font-size: 20px;
+            }
+          }
+            .text-block{
+  margin: 20px 10px;
+  h4{
+    font-size: 10px;
+    color: #6a6a6a;
+
+  }
+  h3 {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6f6f6e;
+  }
+
+}
+        }
+    }
+    .header-menu{
+      .links-block{
+        a{
+          color: #262626;
+          &:hover {
+            color: gray;
+          }
+        }
+
+      }
+
+
+        .icons-position {
+          //display: flex;
+          color: black;
+          margin: auto;
+          a {
+            width: auto;
+            padding: 10px 10px;
+
+            &:hover {
+              color: gray;
+            }
+          }
+        }
+
+    }
+  }
+}
 section {
   &#first-section {
     background-image: url("../images/main-background.png");

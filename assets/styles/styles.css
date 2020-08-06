@@ -9,6 +9,20 @@ a:hover { color: unset; }
 .scroll-button .text-button { text-transform: uppercase; font-size: 13px; color: white; font-weight: bold; padding: 5px; }
 .scroll-button .text-button:focus { outline: none; }
 
+main .navbar-class { display: flex; }
+main .header .header-logo { border-bottom: 1px solid rgba(194, 194, 194, 0.3098039216); color: black; }
+main .header .header-logo .choosing-block { display: flex; }
+main .header .header-logo .choosing-block .icon-block { margin: 20px 0 10px 0; height: 40px; width: 40px; display: flex; background-color: #1A9BDC; border-radius: 50%; }
+main .header .header-logo .choosing-block .icon-block i { margin: auto; color: white; font-size: 20px; }
+main .header .header-logo .choosing-block .text-block { margin: 20px 10px; }
+main .header .header-logo .choosing-block .text-block h4 { font-size: 10px; color: #6a6a6a; }
+main .header .header-logo .choosing-block .text-block h3 { text-align: left; font-size: 15px; font-weight: bold; color: #6f6f6e; }
+main .header .header-menu .links-block a { color: #262626; }
+main .header .header-menu .links-block a:hover { color: gray; }
+main .header .header-menu .icons-position { color: black; margin: auto; }
+main .header .header-menu .icons-position a { width: auto; padding: 10px 10px; }
+main .header .header-menu .icons-position a:hover { color: gray; }
+
 section#first-section { background-image: url("../images/main-background.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; }
 section#first-section .background-img { background-image: url("../images/light-main-section.png"); height: 600px; background-position: center; background-repeat: no-repeat; background-size: cover; }
 section#first-section .main-title-row { color: #474747; padding-top: 150px; }
